@@ -1,0 +1,24 @@
+@import '../../index.scss';
+nav{
+  border-radius: 0px;
+background: #ffffff;
+box-shadow:  5px 5px 10px #d9d9d9, 
+             -5px -5px 10px #ffffff;
+}
+ul{
+  display: flex;
+  list-style: none;
+  justify-content:space-around;
+  align-items: center;
+  height: 10vh;
+  a{
+    text-decoration:  none;
+    color:$textColor;
+  }
+  a:active{
+    color:#000;
+  }
+  img{
+    height: 10vh;
+  }
+}

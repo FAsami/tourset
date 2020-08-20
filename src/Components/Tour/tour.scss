@@ -1,0 +1,41 @@
+.tour{
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow:  5px 5px 10px #d1d1d1, 
+              -5px -5px 10px #ffffff;
+  
+.tour-header{
+    background: #EA425C;
+    color:#fff;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    margin-bottom:  10px;
+    button {
+      background: #AE1438;
+      color: #fff;
+      border:none;
+      height: 30px;
+      width : 70px;
+      margin-left : auto;
+      border-radius: 5px;
+    }
+}
+  h3{
+    text-align: center;
+    padding:20px 0px;
+  }
+  img{
+    height: 300px;
+    width:300px;
+    display: block;
+    margin:0 auto;
+  }
+}
+.tour:hover{
+  box-shadow: none;
+  background: #DAE0E2;
+  transition: 0.4s ease;
+}
